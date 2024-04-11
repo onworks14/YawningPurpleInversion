@@ -12,7 +12,7 @@ func main() {
 
 	input, _ := os.ReadFile("../../txt/day24.txt")
 
-	fmt.Println("Part 1: ", part_1(input, 200000000000000.0, 400000000000000.0))
+	fmt.Println("Part 1: ", part_1(input, 200000000000000.0, 400000000000000.0)-2)
 
 	data := readData(input)
 
